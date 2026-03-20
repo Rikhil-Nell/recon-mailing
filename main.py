@@ -18,8 +18,8 @@ from engine.email_generator import generate_email_sequence, get_cached_sequence
 # ── Load .env ─────────────────────────────────────────────────────────────
 
 load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
-JINA_API_KEY = os.getenv("JINA_API_KEY", "")
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+JINA_API_KEY = st.secrets["JINA_API_KEY"]
 
 # ── Page Config ───────────────────────────────────────────────────────────
 

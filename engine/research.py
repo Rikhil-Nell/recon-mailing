@@ -135,7 +135,7 @@ def research_company(
     )
 
     response = client.chat.completions.create(
-        model="gpt-5",
+        model="gpt-4o",
         messages=[{"role": "user", "content": prompt}],
         temperature=0.3,
         max_tokens=1000,
