@@ -1,0 +1,13 @@
+[project]
+name = "recon-mailing"
+version = "0.1.0"
+description = "Sponsor outreach engine for Recon 2026 — personalized, research-backed sponsorship emails"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit>=1.40.0",
+    "openai>=1.50.0",
+    "pandas>=2.2.0",
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+]
